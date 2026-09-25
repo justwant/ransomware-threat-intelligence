@@ -262,6 +262,30 @@ Ransomware is a useful case study because its operations involve multiple stages
 By using MITRE ATT&CK, OSINT tools, and MISP, this project will demonstrate how raw threat information can be collected and transformed into structured intelligence.
 
 ---
+## 10. CTI Workflow
+
+The CTI workflow used in this project can be represented as:
+
+**Collect → Process → Analyze → Share → Apply**
+
+### Collect
+Threat information is collected from public sources such as MITRE ATT&CK, VirusTotal, Shodan, security reports, and other OSINT sources.
+
+### Process
+Collected information is cleaned, normalized, classified, and converted into structured data such as IOCs and TTPs.
+
+### Analyze
+Analysts correlate the collected information and identify relationships between indicators, threat actors, malware, and attack techniques.
+
+### Share
+Relevant intelligence is documented and shared in a structured format so that it can be used by security teams.
+
+### Apply
+The resulting intelligence can be used for detection, incident response, threat hunting, and improving security controls.
+
+For this project, the workflow will be applied to ransomware intelligence:
+
+**Ransomware information → IOC collection → IOC processing → MITRE ATT&CK mapping → Threat analysis**
 
 ## References
 
