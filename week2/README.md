@@ -1,0 +1,180 @@
+# Week 2 — Data Collection Process
+
+## Project Topic
+
+Ransomware Threat Intelligence and IOC Analysis
+
+### Case Study: LockBit 3.0
+
+---
+
+## 1. Objective
+
+The objective of Week 2 is to collect publicly available Cyber Threat Intelligence related to ransomware.
+
+The collected information will be used for further processing and analysis during Week 3.
+
+The main data collection sources are:
+
+- VirusTotal
+- Shodan
+- Maltego
+- MITRE ATT&CK
+- Public cybersecurity reports
+
+---
+
+## 2. Data Collection Methodology
+
+The data collection process follows these steps:
+
+1. Identify the target ransomware.
+2. Identify relevant threat intelligence sources.
+3. Collect publicly available information.
+4. Record the source of each piece of information.
+5. Classify the collected information.
+6. Prepare the data for processing in Week 3.
+
+The project focuses on passive and publicly available information.
+
+No unauthorized access or active exploitation is performed.
+
+---
+
+## 3. VirusTotal
+
+VirusTotal is a threat intelligence platform that can be used to investigate files, domains, IP addresses, URLs, and other indicators.
+
+For this project, VirusTotal will be used to investigate publicly available information related to LockBit and identify relevant indicators.
+
+### Data to Collect
+
+The following types of information may be collected:
+
+- File hashes
+- Domains
+- IP addresses
+- URLs
+- Detection information
+- Related files
+- Threat intelligence relationships
+
+### Source
+
+VirusTotal:
+
+https://www.virustotal.com/
+
+---
+
+## 4. Shodan
+
+Shodan is a search engine for Internet-connected devices and services.
+
+For this project, Shodan will be used to understand publicly exposed services and infrastructure related to the research topic.
+
+### Data to Collect
+
+Potential information includes:
+
+- IP addresses
+- Open ports
+- Network services
+- Service banners
+- Host information
+- Geographic information
+
+Only publicly available information will be used.
+
+### Source
+
+Shodan:
+
+https://www.shodan.io/
+
+---
+
+## 5. Maltego
+
+Maltego is an OSINT and link-analysis platform that can be used to visualize relationships between entities.
+
+For this project, Maltego will be used to represent relationships between entities such as:
+
+- Domains
+- IP addresses
+- URLs
+- Organizations
+- Malware
+- Threat actors
+
+The purpose is to understand relationships between collected intelligence rather than to perform unauthorized activity.
+
+---
+
+## 6. Source Mapping
+
+All collected information will be recorded together with its source.
+
+| Source | Data Type | Purpose |
+|---|---|---|
+| VirusTotal | Hashes, domains, URLs, IPs | IOC investigation |
+| Shodan | IPs, ports, services | Infrastructure research |
+| Maltego | Entity relationships | Link analysis |
+| MITRE ATT&CK | TTPs | Adversary behavior analysis |
+| Security Reports | Threat information | Context and validation |
+
+---
+
+## 7. Data Collection Log
+
+Collected information will be recorded using the following structure:
+
+| ID | Source | Indicator/Data | Type | Relevance |
+|---|---|---|---|---|
+| IOC-001 | VirusTotal | TBD | Hash | LockBit-related indicator |
+| IOC-002 | VirusTotal | TBD | Domain | Potential infrastructure indicator |
+| IOC-003 | Shodan | TBD | IP/Service | Infrastructure information |
+| IOC-004 | Maltego | TBD | Relationship | Relationship between entities |
+
+The `TBD` values will be replaced with verified information during the practical data collection process.
+
+---
+
+## 8. Evidence
+
+Screenshots will be collected from the tools used during the investigation.
+
+Evidence will include:
+
+- VirusTotal search results
+- Shodan search results
+- Maltego relationship graph
+- Source mapping table
+
+Screenshots will be stored in the project repository.
+
+---
+
+## 9. Data Preparation for Week 3
+
+After collection, the gathered information will be prepared for processing.
+
+The next stage will include:
+
+- IOC normalization;
+- IOC classification;
+- correlation of indicators;
+- importing relevant data into MISP;
+- mapping indicators to threat intelligence context.
+
+---
+
+## 10. Conclusion
+
+Week 2 focuses on collecting publicly available Cyber Threat Intelligence from multiple sources.
+
+The collected data will provide the foundation for IOC processing and correlation in Week 3.
+
+The overall workflow is:
+
+**Collect → Validate → Classify → Process → Analyze**
