@@ -40,12 +40,26 @@ The project focuses on passive and publicly available information.
 No unauthorized access or active exploitation is performed.
 
 ---
+## 3. VirusTotal Analysis
 
-## 3. VirusTotal
+A LockBit 3.0 sample was analyzed using VirusTotal.
 
-VirusTotal is a threat intelligence platform that can be used to investigate files, domains, IP addresses, URLs, and other indicators.
+SHA-256:
 
-For this project, VirusTotal will be used to investigate publicly available information related to LockBit and identify relevant indicators.
+80e8defa5377018b093b5b90de0f2957f7062144c83a09a56bba1fe4eda932ce
+
+VirusTotal results:
+
+- 58 of 64 security vendors detected the file as malicious.
+- File type: PE executable (EXE).
+- File size: 162 KB.
+- Popular threat label: ransomware.lockbit/packed2.
+- Threat categories: ransomware and trojan.
+- Family labels include LockBit.
+
+The result confirms that the analyzed sample is associated with LockBit ransomware.
+
+![VirusTotal analysis](virustotal-lockbit.png)
 
 ### Data to Collect
 
