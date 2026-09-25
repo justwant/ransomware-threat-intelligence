@@ -130,7 +130,7 @@ C2 communication may be used to:
 - receive information;
 - control compromised systems;
 - transfer data.
-## 4.5 Ransomware Threat Classification
+## 4.6 Ransomware Threat Classification
 
 For this project, ransomware threats can be classified into several categories:
 
