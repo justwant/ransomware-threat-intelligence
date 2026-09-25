@@ -130,7 +130,21 @@ C2 communication may be used to:
 - receive information;
 - control compromised systems;
 - transfer data.
+## 4.5 Ransomware Threat Classification
 
+For this project, ransomware threats can be classified into several categories:
+
+| Threat Category | Description | Example |
+|---|---|---|
+| Initial Access | Attackers gain access to the victim environment | Exploitation of vulnerabilities or stolen credentials |
+| Execution | Malicious code is executed | PowerShell or malicious executable |
+| Discovery | Attackers collect information about the environment | Process and network share discovery |
+| Lateral Movement | Attackers move between systems | SMB/Windows Admin Shares |
+| Data Exfiltration | Sensitive information is stolen | Documents and databases |
+| Impact | Systems or data are disrupted | File encryption |
+| Extortion | Victims are pressured to pay | Threat of publishing stolen data |
+
+This classification shows how ransomware activity can be analyzed using the CTI lifecycle and the MITRE ATT&CK framework.
 ---
 
 ## 5. Types of Ransomware Threats
