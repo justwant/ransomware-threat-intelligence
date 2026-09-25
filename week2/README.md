@@ -81,11 +81,23 @@ https://www.virustotal.com/
 
 ---
 
-## 4. Shodan
+## 4. Shodan Analysis
 
-Shodan is a search engine for Internet-connected devices and services.
+A Shodan search was performed using the keyword "LockBit".
 
-For this project, Shodan will be used to understand publicly exposed services and infrastructure related to the research topic.
+The search returned one publicly indexed host:
+
+- IP address: 20.230.148.134
+- Location: United States, Moses Lake
+- Operating system: Windows 11
+- Service: Remote Desktop Protocol (RDP)
+- Certificate Common Name: lockbit-demo
+- NetBIOS name: lockbit-demo
+
+The result shows publicly available infrastructure containing LockBit-related identifiers. 
+The Shodan result alone does not prove that the IP address belongs to the LockBit ransomware group.
+
+![Shodan search result](shodan-lockbit.png)
 
 ### Data to Collect
 
