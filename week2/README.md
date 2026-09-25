@@ -153,16 +153,13 @@ All collected information will be recorded together with its source.
 
 ## 7. Data Collection Log
 
-Collected information will be recorded using the following structure:
-
 | ID | Source | Indicator/Data | Type | Relevance |
 |---|---|---|---|---|
-| IOC-001 | VirusTotal | TBD | Hash | LockBit-related indicator |
-| IOC-002 | VirusTotal | TBD | Domain | Potential infrastructure indicator |
-| IOC-003 | Shodan | TBD | IP/Service | Infrastructure information |
-| IOC-004 | Maltego | TBD | Relationship | Relationship between entities |
-
-The `TBD` values will be replaced with verified information during the practical data collection process.
+| IOC-001 | VirusTotal | `80e8defa5377018b093b5b90de0f2957f7062144c83a09a56bba1fe4eda932ce` | SHA-256 Hash | LockBit-related malware sample |
+| IOC-002 | VirusTotal | `ransomware.lockbit/packed2` | Threat Label | LockBit ransomware classification |
+| IOC-003 | Shodan | `20.230.148.134` | IP Address | Publicly indexed host |
+| IOC-004 | Shodan | RDP / Windows 11 / `lockbit-demo` | Host Information | LockBit-related identifiers |
+| IOC-005 | Maltego | `lockbit.com` → IP entity | Relationship | Link analysis |
 
 ---
 
