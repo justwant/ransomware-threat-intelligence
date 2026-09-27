@@ -27,9 +27,6 @@ The search results provided information such as:
 - Web server information
 - HTTP and SSL/TLS information
 
-### Search Results
-
-![Shodan Apache Search Results](shodan_apache_results.png)
 
 ## Host Analysis
 
@@ -46,9 +43,7 @@ The following information was observed:
 - Multiple open ports were listed, including ports 21, 53, 80 and 443.
 - Port 21 was identified as an FTP service running Pure-FTPd.
 
-### Host Details
 
-![Shodan Host Details](shodan_host_details.png)
 
 ## CTI Relevance
 
