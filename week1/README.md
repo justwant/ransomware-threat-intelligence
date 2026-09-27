@@ -1,4 +1,14 @@
 # Week 1 — Cyber Threat Intelligence Fundamentals
+## Project Topic
+
+**Ransomware Threat Intelligence — LockBit Case Study**
+
+Our group project focuses on Cyber Threat Intelligence related to
+ransomware. LockBit is used as the main case study for the project.
+
+The project demonstrates how threat intelligence can be collected,
+processed, and analyzed using CTI concepts, IOCs, TTPs, MITRE ATT&CK,
+OSINT sources, and threat intelligence tools.
 
 ## 1. Introduction
 
