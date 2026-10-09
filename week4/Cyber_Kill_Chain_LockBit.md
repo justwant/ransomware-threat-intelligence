@@ -569,3 +569,34 @@ The most important techniques during the final stage include:
 Using the Cyber Kill Chain together with MITRE ATT&CK provides both a high-level view of the attack and a detailed view of the techniques used by the adversary.
 
 This analysis demonstrates how understanding attacker behavior can help organizations detect ransomware activity earlier and apply appropriate defensive controls throughout the attack lifecycle.
+
+---
+
+## 16. References
+
+1. Lockheed Martin — Cyber Kill Chain  
+   https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
+
+2. Lockheed Martin — Intelligence-Driven Computer Network Defense  
+   https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
+
+3. MITRE ATT&CK — LockBit 3.0  
+   https://attack.mitre.org/software/S1202/
+
+4. CISA — #StopRansomware: LockBit 3.0  
+   https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-165a
+
+5. MITRE ATT&CK — Network Service Discovery (T1046)  
+   https://attack.mitre.org/techniques/T1046/
+
+6. MITRE ATT&CK — Software Packing (T1027.002)  
+   https://attack.mitre.org/techniques/T1027/002/
+
+7. MITRE ATT&CK — Deobfuscate/Decode Files or Information (T1140)  
+   https://attack.mitre.org/techniques/T1140/
+
+8. MITRE ATT&CK — Data Encrypted for Impact (T1486)  
+   https://attack.mitre.org/techniques/T1486/
+
+9. MITRE ATT&CK — Inhibit System Recovery (T1490)  
+   https://attack.mitre.org/techniques/T1490/
