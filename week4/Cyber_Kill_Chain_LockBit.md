@@ -58,6 +58,9 @@ The LockBit attack can be represented using the following Cyber Kill Chain seque
 - Installation
 - Command and Control
 - Actions on Objectives
+
+---
+
 ## 5. Stage 1 — Reconnaissance
 
 Reconnaissance is the first stage of the Cyber Kill Chain.
@@ -73,6 +76,7 @@ For a LockBit attack, network and service discovery can help attackers understan
 This technique is used to identify network services and systems available in the target environment.
 
 The information collected during this stage can help the attacker decide how to proceed with the attack.
+
 
 ### Defensive Controls
 
@@ -92,6 +96,9 @@ The Reconnaissance stage helps the attacker understand the target environment be
 **Cyber Kill Chain:** Reconnaissance
 
 **MITRE ATT&CK:** T1046 — Network Service Discovery
+
+---
+
 ## 6. Stage 2 — Weaponization
 
 Weaponization is the second stage of the Cyber Kill Chain.
@@ -130,6 +137,9 @@ During the Weaponization stage, the attacker prepares the malicious ransomware p
 **Cyber Kill Chain:** Weaponization
 
 **MITRE ATT&CK:** T1027.002 — Software Packing; T1140 — Deobfuscate/Decode Files or Information
+
+---
+
 ## 7. Stage 3 — Delivery
 
 Delivery is the third stage of the Cyber Kill Chain.
@@ -177,6 +187,9 @@ During the Delivery stage, the attacker attempts to gain initial access to the v
 **Cyber Kill Chain:** Delivery
 
 **MITRE ATT&CK:** T1566 — Phishing; T1133 — External Remote Services; T1190 — Exploit Public-Facing Application; T1078 — Valid Accounts
+
+---
+
 ## 8. Stage 4 — Exploitation
 
 Exploitation is the fourth stage of the Cyber Kill Chain.
@@ -216,6 +229,9 @@ During the Exploitation stage, the attacker executes commands or malicious paylo
 **Cyber Kill Chain:** Exploitation
 
 **MITRE ATT&CK:** T1059.003 — Windows Command Shell; T1569.002 — System Services: Service Execution
+
+---
+
 ## 9. Stage 5 — Installation
 
 Installation is the fifth stage of the Cyber Kill Chain.
@@ -261,6 +277,9 @@ During the Installation stage, the attacker attempts to maintain access and prep
 **Cyber Kill Chain:** Installation
 
 **MITRE ATT&CK:** T1543.003 — Windows Service; T1547.004 — Winlogon Helper DLL; T1562.001 — Impair Defenses; T1112 — Modify Registry
+
+---
+
 ## 10. Stage 6 — Command and Control
 
 Command and Control (C2) is the sixth stage of the Cyber Kill Chain.
@@ -300,6 +319,9 @@ During the Command and Control stage, compromised systems communicate with attac
 **Cyber Kill Chain:** Command and Control
 
 **MITRE ATT&CK:** T1071.001 — Web Protocols; T1573.001 — Encrypted Channel
+
+---
+
 ## 11. Stage 7 — Actions on Objectives
 
 Actions on Objectives is the final stage of the Cyber Kill Chain.
