@@ -371,3 +371,201 @@ During the Actions on Objectives stage, LockBit performs the final malicious act
 **Cyber Kill Chain:** Actions on Objectives
 
 **MITRE ATT&CK:** T1135 — Network Share Discovery; T1021.002 — SMB/Windows Admin Shares; T1490 — Inhibit System Recovery; T1486 — Data Encrypted for Impact
+
+---
+
+## 12. Complete LockBit Attack Chain
+
+The LockBit attack can be summarized as a sequence of seven Cyber Kill Chain stages.
+
+### Attack Sequence
+
+**1. Reconnaissance**
+
+The attacker identifies target systems, network services, and possible entry points.
+
+↓
+
+**2. Weaponization**
+
+The attacker prepares the ransomware payload and can use packing or obfuscation techniques.
+
+↓
+
+**3. Delivery**
+
+The attacker gains initial access through methods such as phishing, external remote services, exploitation of public-facing applications, or valid accounts.
+
+↓
+
+**4. Exploitation**
+
+The attacker executes commands or malicious payloads on compromised systems.
+
+↓
+
+**5. Installation**
+
+The attacker establishes persistence and may disable or modify security controls.
+
+↓
+
+**6. Command and Control**
+
+Compromised systems communicate with attacker-controlled infrastructure using web protocols or encrypted channels.
+
+↓
+
+**7. Actions on Objectives**
+
+The attacker moves through the network, inhibits recovery mechanisms, and encrypts data.
+
+### Overall Attack Flow
+
+Reconnaissance
+        ↓
+Identify target systems and services
+        ↓
+Weaponization
+        ↓
+Prepare ransomware payload
+        ↓
+Delivery
+        ↓
+Gain initial access
+        ↓
+Exploitation
+        ↓
+Execute malicious commands
+        ↓
+Installation
+        ↓
+Establish persistence and impair defenses
+        ↓
+Command and Control
+        ↓
+Communicate with attacker infrastructure
+        ↓
+Actions on Objectives
+        ↓
+Lateral movement
+        ↓
+Inhibit system recovery
+        ↓
+Encrypt data
+
+---
+
+## 13. Cyber Kill Chain vs MITRE ATT&CK
+
+The Cyber Kill Chain and MITRE ATT&CK provide different levels of analysis of a cyberattack.
+
+### Cyber Kill Chain
+
+The Cyber Kill Chain describes the overall sequence of an attack.
+
+It helps answer the question:
+
+> At what stage of the attack is the adversary?
+
+The seven stages provide a high-level view of how the attack progresses from reconnaissance to the final objective.
+
+### MITRE ATT&CK
+
+MITRE ATT&CK provides a more detailed description of attacker behavior.
+
+It helps answer the question:
+
+> How does the adversary perform a specific action?
+
+For example, the final stage of the Cyber Kill Chain can include several MITRE ATT&CK techniques:
+
+- **T1490 — Inhibit System Recovery**
+- **T1486 — Data Encrypted for Impact**
+- **T1021.002 — SMB/Windows Admin Shares**
+- **T1135 — Network Share Discovery**
+
+Therefore, the Cyber Kill Chain provides the overall attack structure, while MITRE ATT&CK provides detailed technical information about the techniques used by the attacker.
+
+### Combined Analysis
+
+The combination of both frameworks makes it possible to understand:
+
+- The overall progression of the attack
+- The techniques used by the attacker
+- Possible detection points
+- Appropriate defensive controls
+
+This approach provides a structured way to analyze the LockBit ransomware attack.
+
+---
+
+## 14. Defensive Strategy
+
+The Cyber Kill Chain can also be used to identify defensive opportunities at different stages of an attack.
+
+Security controls should be applied throughout the attack lifecycle rather than only after ransomware starts encrypting files.
+
+| Cyber Kill Chain Stage | Example Defensive Control |
+|---|---|
+| Reconnaissance | Network monitoring and attack surface management |
+| Weaponization | Malware analysis and Endpoint Detection and Response (EDR) |
+| Delivery | Email security, phishing protection, and Multi-Factor Authentication (MFA) |
+| Exploitation | Vulnerability management, patching, and endpoint monitoring |
+| Installation | Monitoring services, Registry changes, and persistence mechanisms |
+| Command and Control | Network traffic monitoring, DNS monitoring, and firewall controls |
+| Actions on Objectives | Offline backups, immutable backups, network segmentation, and recovery procedures |
+
+### Early Detection
+
+The earlier an organization detects malicious activity, the greater the chance of preventing the attacker from reaching the final stage.
+
+For example:
+
+- Suspicious scanning can be detected during Reconnaissance.
+- Malicious files can be detected during Delivery.
+- Suspicious command execution can be detected during Exploitation.
+- Persistence mechanisms can be detected during Installation.
+- Unusual outbound connections can be detected during Command and Control.
+- File encryption and recovery modification can be detected during Actions on Objectives.
+
+### Summary
+
+Effective defense requires multiple security controls across the entire attack lifecycle.
+
+Organizations should combine network monitoring, endpoint protection, access control, vulnerability management, network segmentation, and reliable backups to reduce the impact of ransomware attacks.
+
+---
+
+## 15. Conclusion
+
+The LockBit ransomware case demonstrates how the Cyber Kill Chain can be used to analyze the different stages of a real-world cyberattack.
+
+The attack can be described through seven stages:
+
+**Reconnaissance → Weaponization → Delivery → Exploitation → Installation → Command and Control → Actions on Objectives**
+
+Each stage can be associated with specific MITRE ATT&CK techniques.
+
+The analysis shows that LockBit attackers can use techniques for:
+
+- Network and service discovery
+- Initial access
+- Command execution
+- Persistence
+- Defense evasion
+- Command and Control
+- Lateral movement
+- Inhibiting system recovery
+- Data encryption
+
+The most important techniques during the final stage include:
+
+- **T1490 — Inhibit System Recovery**
+- **T1486 — Data Encrypted for Impact**
+- **T1021.002 — SMB/Windows Admin Shares**
+- **T1135 — Network Share Discovery**
+
+Using the Cyber Kill Chain together with MITRE ATT&CK provides both a high-level view of the attack and a detailed view of the techniques used by the adversary.
+
+This analysis demonstrates how understanding attacker behavior can help organizations detect ransomware activity earlier and apply appropriate defensive controls throughout the attack lifecycle.
