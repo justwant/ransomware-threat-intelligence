@@ -118,7 +118,8 @@ The tcpdump capture demonstrated TCP connection attempts to different ports duri
 
 **Screenshot:**
 
-![Uploading Снимок экрана 2026-10-31 010006.png…]()
+<img width="800" height="520" alt="Снимок экрана 2026-10-31 010006" src="https://github.com/user-attachments/assets/ada27734-2a94-4e23-acfa-db62094e3dda" />
+
 
 
 ---
