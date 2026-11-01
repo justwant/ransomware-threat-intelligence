@@ -1,4 +1,4 @@
-# Assignment 8 — Creating a Plan to Emulate an Attacker's Action
+#  Creating a Plan to Emulate an Attacker's Action
 
 ## 1. Objective
 
