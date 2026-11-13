@@ -36,7 +36,6 @@ The selected test demonstrates how an obfuscated PowerShell command can execute 
 **Screenshot 1 — Atomic Test #17 on GitHub**
 
 <img width="1412" height="656" alt="01_Atomic_Test_17_GitHub_description" src="https://github.com/user-attachments/assets/3ec9016c-7105-43f4-88e4-a5c04d18efb5" />
-<img width="923" height="941" alt="02_Winlogbeat_Config_OK" src="https://github.com/user-attachments/assets/ab3b2dfb-8368-4efb-ad81-4758b78e9afd" />
 <img width="923" height="941" alt="02_Winlogbeat_Config_OK" src="https://github.com/user-attachments/assets/ce0af6fe-6604-421f-a05e-db3a8b7ae8f1" />
 
 
@@ -101,9 +100,6 @@ The main event analyzed in this assignment was:
 
 **Screenshot 4 — PowerShell Event ID 4104 in Kibana**
 <img width="1915" height="912" alt="05_Atomic_test_command_detected" src="https://github.com/user-attachments/assets/68ea8944-8129-4240-ae75-4222e1f8fb6f" />
-<img width="1915" height="912" alt="05_Atomic_test_command_detected" src="https://github.com/user-attachments/assets/6430baa7-a3ec-4ef9-9282-fae997635602" />
-<img width="1915" height="912" alt="05_Atomic_test_command_detected" src="https://github.com/user-attachments/assets/95cc393a-2ee8-4a4f-8657-a4add5ee7369" />
-
 <img width="1898" height="836" alt="04_PowerShell_Event_4104" src="https://github.com/user-attachments/assets/7eba2918-1b96-4c49-bdc6-238ffbaf00bc" />
 
 ## 7. Controlled Test Execution
@@ -127,9 +123,6 @@ The expected output was:
 
 **Important:** The original Atomic Test was not executed through the `Invoke-AtomicTest` command. Instead, its command-execution behavior was manually reproduced using a controlled PowerShell simulation.
 
-**Screenshot 5 — PowerShell Command Execution**
-
-<img width="1915" height="912" alt="05_Atomic_test_command_detected" src="https://github.com/user-attachments/assets/836401ac-9a48-4549-8508-765a0df96757" />
 
 
 ## 8. SIEM Analysis and Results
@@ -159,9 +152,6 @@ The events contained references to:
 
 These results confirmed that Windows recorded the controlled PowerShell activity and that Winlogbeat successfully forwarded the events to Elasticsearch.
 
-**Screenshot 6 — Detection of the Test Command in Kibana**
-
-<img width="1915" height="912" alt="Снимок экрана 2026-11-14 000307" src="https://github.com/user-attachments/assets/af2b910a-d0d0-42c8-ac4f-5dabb39ea710" />
 
 
 ## 9. MITRE ATT&CK Mapping
